@@ -136,7 +136,7 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
       role="group"
       aria-roledescription="slide"
       data-slot="carousel-item"
-      className={cn("shrink-0 w-full", className)} // ❌ sin padding extra
+      className={cn("shrink-0 w-full", className)} 
       {...props}
     />
   );

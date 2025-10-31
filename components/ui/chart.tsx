@@ -23,8 +23,8 @@ export function ChartContainer({ config, children }: ChartContainerProps) {
   )
 }
 
-export function ChartTooltip({ cursor, content }: any) {
-  return content
+export function ChartTooltip({ cursor, unknow }: any) {
+  return unknow
 }
 
 export function ChartTooltipContent() {

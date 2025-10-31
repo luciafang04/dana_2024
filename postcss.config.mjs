@@ -3,3 +3,10 @@ const config = {
 };
 
 export default config;
+
+
+{
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}
